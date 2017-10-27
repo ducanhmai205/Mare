@@ -27,7 +27,7 @@ export default class HomeScreen extends React.Component {
         
         	<StatusBar backgroundColor="white" barStyle="light-content"/>
 			<View style={styles.image}>        
-				<Image source={{ uri: 'https://d23dyxeqlo5psv.cloudfront.net/cat.gif' }}
+				<Image source={require('../img/default_avatar.png')}
                   style={{ height: 100,
     	          borderRadius: 50,
     	          width: 100 }}
@@ -37,7 +37,7 @@ export default class HomeScreen extends React.Component {
                 <Text style={styles.text}>SERVICE NAME</Text>
                 <View><Text></Text></View>
                 
-              	<Text style={styles.text}>SOME TEXT </Text>
+              	<Text style={styles.text}>こんにちは今日</Text>
                
         	</View>
 

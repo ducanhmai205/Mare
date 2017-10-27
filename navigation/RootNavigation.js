@@ -8,6 +8,9 @@ import LoginScreen from '../screens/LoginScreen';
 import LoginButton from '../screens/LoginButton';
 import RadioButton from '../screens/RadioButton';
 import LoginSuccess from '../screens/LoginSuccess';
+import SelectScreen from '../screens/SelectScreen';
+
+
 
 
 const DemoNavigation = StackNavigator(
@@ -17,7 +20,8 @@ const DemoNavigation = StackNavigator(
   LoginScreen: {screen: LoginScreen},
   LoginButton: {screen: LoginButton},
   RadioButton: {screen: RadioButton},
-  LoginSuccess: {screen: LoginSuccess }
+  LoginSuccess: {screen: LoginSuccess },
+  SelectScreen: {screen: SelectScreen}
 },
 {
 	headerMode:'none'

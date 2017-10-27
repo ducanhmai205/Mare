@@ -104,7 +104,7 @@ fetch('http://192.168.1.56/KhoahocAPI/User_Login.php', {
                         placeholder="E-mail"
                         style={styles.textMail}
                          onChangeText={UserEmail => this.setState({UserEmail})}
-
+                        keybroadType="email-address"
                    />
           
                    <TextInput
